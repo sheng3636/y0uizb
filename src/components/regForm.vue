@@ -1,7 +1,7 @@
 <template>
   <div class="login-form">
     <div class="g-form">
-      <div class="g-form-line" v-for="formLine in formData">
+      <div class="g-form-line" v-for="(formLine,index) in formData" :key="index">
         <span class="g-form-label">{{ formLine.label }}：</span>
         <div class="g-form-input">
           <input type="text" 

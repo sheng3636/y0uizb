@@ -16,7 +16,7 @@ let router = new VueRouter({
 	routes: [
 		{
 			path: '/',
-			component: IndexPage
+			component: IndexPage  /* pages/index */
 		},
 		{
 			path: '/orderList',
